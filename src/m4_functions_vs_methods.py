@@ -199,10 +199,19 @@ def try_functions():
 ###############################################################################
 def try_methods_and_functions():
     turtle_try = rg.SimpleTurtle('turtle')
-    turtle_try = rg.Pen('blue',5)
+    turtle_try.pen = rg.Pen('blue',5)
     turtle_try.forward(150)
     turtle_try.speed = 1
-    turtle_try.forward()
+    turtle_try.forward(50)
+    turtle_try.left(30)
+    turtle_try.forward(50)
+    turtle_try.left(30)
+    turtle_try.forward(50)
+    turtle_try.left(150)
+    turtle_try.forward(50)
+    turtle_try.left(30)
+    turtle_try.forward(50)
+
     """
     Constructs a SimpleTurtle and sets its   pen  to a new rg.Pen
     that is 'blue' with thickness 5.
