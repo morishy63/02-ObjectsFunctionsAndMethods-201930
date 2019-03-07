@@ -1870,7 +1870,7 @@ class SimpleTurtle(object):
         self._update_real_turtle()
         self._turtle.penup()
 
-    def pen_down(self):
+    def pen_down(self) -> object:
         """
         Puts down this SimpleTurtle's pen.  Subsequent movements
         WILL draw a line using this SimpleTurtle's pen (until pen_up
